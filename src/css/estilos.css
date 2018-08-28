@@ -15,12 +15,21 @@
   src: url("../fonts/Montserrat-ExtraBold.otf") format("OpenType");
 }
 
+body{
+  margin: 0px;
+}
+.superior{
+  background-image: url("../img/background-superior.png");
+  background-size: 101%;
+  background-repeat: no-repeat;
+}
 
 .opaque-navbar {
     background-color: rgba(22,65,148,0.75);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
    /* height: 60px*/;
-    border-bottom: 0px;
+    border-bottom: 2px;
+    border-color: white;
     transition: background-color .5s ease 0s;
 }
 
@@ -30,13 +39,26 @@
     transition: background-color .5s ease 0s;
 }
 
+.logo{
+  width: 180px;
+  align-items: center;
+}
+
 .nav-item{
 	font-family: "MontserratRegular";
-	font-size: 14px;
+	font-size: 12px;
+}
+
+.icons{
+  font-size: 16px;
 }
 
 .navbar-menu{
-	editando para conseguir comitar
+
+}
+
+.texto-carrosel{
+  font-family: "MontserratBold";
 }
 
 /*.navbar {
