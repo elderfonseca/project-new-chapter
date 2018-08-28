@@ -26,7 +26,7 @@
 						        <a class="navbar-brand" href="#">
 						          <img src="./src/img/logo.png" class="logo" alt="">
 						        </a>
-						        <div class="d-flex flex-row order-1 order-lg-3">
+						        <div class="d-flex flex-row order-1 order-lg-3 div-icons">
 						        	<!-- Menu Social Media -->
 							         <ul class="nav navbar-nav ml-auto flex-row">
 							            <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-facebook-f"></span></a></li>
@@ -34,14 +34,14 @@
 							            <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-youtube"></span></a></li>
 							        </ul>
 							    </div>
-							    <div class="order-2">
+							    <div class="order-2 menu-mobile">
 							        <!-- Botão para menu mobile -->
 							        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 							          <span class="navbar-toggler-icon"></span>
 							        </button>
 							    </div>
 							    <!-- Menu geral -->
-						        <div class="collapse navbar-collapse navbar-menu order-3 order-lg-1" id="navbarResponsive">
+						        <div class="collapse navbar-collapse navbar-menu order-3 order-lg-1 navbar-menu-resp" id="navbarResponsive">
 						          <ul class="navbar-nav ml-auto">
 						            <li class="nav-item active">
 						              <a class="nav-link px-4" href="#">HOME
@@ -73,11 +73,89 @@
 						</div>
 					</div>
 					<div class="row">
-					    <div class="carrosel col-sm-12 col-md-10 col-lg-10">
+						
+					    <div class="carrosel col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1">
 					    	<h1 class="texto-carrosel">VAMOS LEVAR<br />
 					    	SUA EMPRESA PARA<br />
 					    	O PRÓXIMO NÍVEL!</h1>
 					    </div>
+					</div>
+					<div class="row row-consultoria d-none d-sm-none d-md-block">
+						<!-- Formulário Consultoria -->
+						<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 opaque-form">
+							<form>
+								<div class="row">
+									<label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
+								</div>
+								<div class="row m-0">
+									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+										<input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
+									</div>
+									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+										<input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
+									</div>
+									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+										<input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
+									</div>
+									<div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
+										<input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
+									</div>
+									<div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
+										<input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="form-mobile">
+					<div class="row row-consultoria d-md-none d-lg-none d-xl-none">
+						<!-- Formulário Consultoria Mobile-->
+						<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 no-opaque-form">
+							<form>
+								<div class="row">
+									<label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
+								</div>
+								<div class="row m-0">
+									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+										<input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
+									</div>
+									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+										<input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
+									</div>
+									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+										<input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
+									</div>
+									<div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
+										<input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
+									</div>
+									<div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
+										<input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-3 offset-lg-1 txt-desafio">
+						<h1 class="title-desafio"><span class="title-artigo">O</span><br />
+							DESAFIO
+						</h1>
+						<p class="p-desafio">O mercado atual é caracterizado pela alta competitividade, no qual, as organizações são constantemente desafiadas a atender rigorosos padrões de qualidade nos serviços oferecidos. Com isso, as empresas de todos os segmentos lidam com clientes com expectativas extremamente elevadas e que procuram o melhor produto.</p>
+
+						<p class="p-desafio">Você, executivo, precisa assumir um papel fundamental para garantir que a cadeia de suprimento seja mantida, provando seu comprometimento em superar as pressões do dia a dia. Com a implementação de sistemas integrados de gestão da qualidade, as empresas estão transformando sua cultura, buscando elevar a qualidade dos produtos, processos e serviços, reduzindo o retrabalho, o erro e consequentemente os custos.</p>
+					</div>
+					<div class="col-md-6 col-lg-7 itens-desafio">
+						<div class="row">
+							<div class="col-md-5 col-lg-6 titles-itens">
+								<h2>SATISFAÇÃO<br />
+								DOS CLIENTES</h2>
+							</div>
+							<div class="col-md-7 col-lg-6">
+								<p class="p-desafio">Necessidades, perspectivas e requisitos dos clientes internos e externos devem ser conhecidos para que o processo seja projetado de modo a produzir resultados que satisfaçam suas necessidades.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
