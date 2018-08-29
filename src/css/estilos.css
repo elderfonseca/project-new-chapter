@@ -28,6 +28,14 @@
 
 body{
 	margin: 0px;
+	padding-right: -15px;
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.titulos-mobile{
+		font-size: 2.3rem !important;
+	}
 }
 
 .superior{
@@ -40,15 +48,15 @@ body{
 }
 
 .opaque-navbar {
-    background-color: rgba(22,65,148,0.75);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-    transition: background-color .5s ease 0s;
-    z-index: 1;
+	background-color: rgba(22,65,148,0.75);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	transition: background-color .5s ease 0s;
+	z-index: 1;
 }
 
 .opaque-navbar.opaque {
-    background-color: #164194;
-    transition: background-color .5s ease 0s;
+	background-color: #164194;
+	transition: background-color .5s ease 0s;
 }
 
 .logo{
@@ -68,9 +76,9 @@ body{
 
 .div-icons{
 	height: 68px;
-    line-height: 3.5;
-    border-left: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
+	line-height: 3.5;
+	border-left: 1px solid rgba(255,255,255,0.5);
+	border-right: 1px solid rgba(255,255,255,0.5);
 }
 
 .icons{
@@ -93,52 +101,52 @@ body{
 /*Responsividade para tamanho da fonte*/
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-    .texto-carrosel{
-        font-size: 3rem;
-    }
+	.texto-carrosel{
+		font-size: 3rem;
+	}
 
-    .opaque-navbar {
-    	background-color: rgba(22,65,148,1);   
+	.opaque-navbar {
+		background-color: rgba(22,65,148,1);   
 	}
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .texto-carrosel{
-        font-size: 2.5rem;
-    }
+	.texto-carrosel{
+		font-size: 2.5rem;
+	}
 
 }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-    .texto-carrosel{
-        font-size: 2rem;
-    }
+	.texto-carrosel{
+		font-size: 2rem;
+	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .texto-carrosel{
-        font-size: 2rem;
-    }
+	.texto-carrosel{
+		font-size: 2rem;
+	}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-    .texto-carrosel{
-        font-size: 2rem;
-    }
+	.texto-carrosel{
+		font-size: 2rem;
+	}
 }
 
 .opaque-form {
-    background-color: rgba(22,65,148,0.75);
-    transition: background-color .5s ease 0s;
+	background-color: rgba(22,65,148,0.75);
+	transition: background-color .5s ease 0s;
 }
 
 .opaque-form.opaque {
-    background-color: #164194;
-    transition: background-color .5s ease 0s;
+	background-color: #164194;
+	transition: background-color .5s ease 0s;
 }
 
 .label-form{
@@ -172,8 +180,8 @@ body{
 }
 
 .no-opaque-form {
-    background-color: rgba(22,65,148,1);
-    /*transition: background-color .5s ease 0s;*/
+	background-color: rgba(22,65,148,1);
+	/*transition: background-color .5s ease 0s;*/
 }
 
 .row-consultoria{
@@ -186,16 +194,16 @@ body{
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-    .txt-desafio{
-        padding-left: 7%;
-    }
+	.txt-desafio{
+		padding-left: 7%;
+	}
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .txt-desafio{
-        padding-left: 7%;
-    }
+	.txt-desafio{
+		padding-left: 7%;
+	}
 }
 
 .title-desafio{
@@ -208,42 +216,42 @@ body{
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-    .title-desafio{
+	.title-desafio{
 		padding-top: 12.5%;
 		padding-bottom: 12.5%;
-    }
+	}
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .title-desafio{
+	.title-desafio{
 		padding-top: 10%;
 		padding-bottom: 10%;
-    }
+	}
 }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-    .title-desafio{
+	.title-desafio{
 		padding-top: 5%;
 		padding-bottom: 5%;
-    }
+	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .title-desafio{
+	.title-desafio{
 		padding-top: 3%;
 		padding-bottom: 3%;
-    }
+	}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-    .title-desafio{
+	.title-desafio{
 		padding-top: 1%;
 		padding-bottom: 1%;
-    }
+	}
 }
 
 .title-artigo{
@@ -274,4 +282,225 @@ body{
 	color: #fff;
 	text-align: right;
 	border-bottom: 2px solid #fff;
+}
+
+.row-grafico{
+	overflow: hidden;
+}
+
+.grafico-desafio{
+	width: 100%;
+}
+
+.title-servicos{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-family: "MontserratBold";
+	font-size: 3.3rem;
+	color: #123274;
+	text-align: center;
+}
+
+.title-servicos-2{
+	color: #0d529e;
+}
+
+.img-servicos {
+	display: inline-block;
+	position: relative;
+}
+
+.img-servicos img {
+	width:100%;
+}
+
+.img-servicos label {
+	position: absolute;
+	top: 73%;
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: "MontserratBold";
+	color: white;
+	background-color: rgba(22,65,148,0.75);
+	transition: background-color .5s ease 0s;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.img-servicos {
+		padding-top: 2%;
+	}
+	.img-servicos label{
+		font-size: 1.5rem;
+	}
+}
+
+.row-servicos {
+	padding-bottom: 2%;
+	width: 100%;
+}
+
+.destaques{
+	background-color: #164194;
+	padding-bottom: 2%;
+	overflow: hidden;
+}
+
+.row-img-destaques {
+	width: 100%;
+}
+
+.title-destaques{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-family: "MontserratBold";
+	font-size: 3.3rem;
+	color: #fff;
+	text-align: center;
+}
+
+.img-destaques img {
+	width:100%;
+}
+
+.label-destaques {
+	text-align: center;
+	font-size: 1.1rem;
+	font-family: "MontserratBold";
+	color: white;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.img-destaques {
+		padding-top: 2%;
+	}
+
+	.hidden-pequeno{
+		display: none;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (min-width: 767px) {
+
+	.hidden-grande{
+		display: none;
+	}
+}
+
+.link-ebook {
+	font-family: "MontserratBold";
+	font-size: 1.2rem;
+	color: #164194;
+	background-color: #fff;
+	text-align: center;
+	padding: 5px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.img-beneficios {
+	display: inline-block;
+	position: relative;
+}
+
+.img-beneficios img {
+	width:100%;
+}
+
+.img-beneficios label {
+	position: absolute;
+	top: 77%;
+	text-align: center;
+	font-size: 0.85rem;
+	font-family: "MontserratBold";
+	color: white;
+	background-color: rgba(22,65,148,0.75);
+	transition: background-color .5s ease 0s;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.img-beneficios {
+		padding-top: 2%;
+	}
+	.img-beneficios label{
+		font-size: 1.1rem;
+	}
+}
+
+.lista-beneficios {
+	list-style: outside url("../img/marcador.png");
+	font-family: "MontserratRegular";
+	font-size: 0.8rem;
+	color: 636363;
+	padding-top: 7%;
+	line-height: 1rem;
+}
+
+.lista-beneficios li {
+	margin-bottom: 8px;
+}
+
+.titulo-certificados {
+	font-family: "MontserratBold";
+	font-size: 2.5rem;
+	color: #fff;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.texto-certificados {
+	font-family: "MontserratRegular";
+	font-size: 0.96rem;
+	color: #fff;
+	width: 73%;
+}
+
+.centro-certificados {
+	background-image: url("../img/background-certificados.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 88%;
+}
+
+.logistica-centro {
+	padding-top: 35%;
+	padding-bottom: 45%;
+}
+
+.midcol-certificados {
+	font-family: "MontserratExtraBold";
+	color: #fff;
+	text-align: right;
+	float: left;
+	padding-left: 40%;
+	padding-right: 12.3%;
+}
+
+.marcador-circular {
+	width: 7%;
+}
+
+.setores-centro {
+	padding-left: 5px;
+	padding-bottom: 35%;
+}
+
+.setores-centro img {
+	padding-top: 4%;
+}
+
+.certificados{
+	background-color: #164194;
+	overflow: hidden;
 }

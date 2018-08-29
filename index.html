@@ -1,167 +1,347 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset=utf-8>
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+	<meta charset=utf-8>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-            <!--Bootstrap-->
-            <link rel="stylesheet" type="text/css" href="./src/css/bootstrap.css">
-			<link rel="stylesheet" type="text/css" href="./src/css/bootstrap-grid.css">
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="./src/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/bootstrap-grid.css">
 
-			<!--CSS-->
-			<link rel="stylesheet" type="text/css" href="./src/css/estilos.css">
-			<link rel="stylesheet" type="text/css" href="./src/icons/css/all.css">
-
-			<title>New Chapter - Home</title>
-		</head>
-		<body>
-			<div class="container-fluid">
-				<div class="superior">
-					<div class="row">
-						<div class="col-sm-12 col-md-12 col-lg-12">
-							<nav class="navbar navbar-expand-lg navbar-dark fixed-top opaque-navbar">
-						      <div class="container">
-						      	<!-- Logomarca -->
-						        <a class="navbar-brand" href="#">
-						          <img src="./src/img/logo.png" class="logo" alt="">
-						        </a>
-						        <div class="d-flex flex-row order-1 order-lg-3 div-icons">
-						        	<!-- Menu Social Media -->
-							         <ul class="nav navbar-nav ml-auto flex-row">
-							            <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-facebook-f"></span></a></li>
-							           <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-instagram"></span></a></li>
-							            <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-youtube"></span></a></li>
-							        </ul>
-							    </div>
-							    <div class="order-2 menu-mobile">
-							        <!-- Botão para menu mobile -->
-							        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-							          <span class="navbar-toggler-icon"></span>
-							        </button>
-							    </div>
-							    <!-- Menu geral -->
-						        <div class="collapse navbar-collapse navbar-menu order-3 order-lg-1 navbar-menu-resp" id="navbarResponsive">
-						          <ul class="navbar-nav ml-auto">
-						            <li class="nav-item active">
-						              <a class="nav-link px-4" href="#">HOME
-						                <span class="sr-only">(current)</span>
-						              </a>
-						            </li>
-						            <li class="nav-item">
-						              <a class="nav-link px-4" href="#">QUEM SOMOS</a>
-						            </li>
-						            <li class="nav-item">
-						              <a class="nav-link px-4" href="#">TREINAMENTOS</a>
-						            </li>
-						            <li class="nav-item">
-						              <a class="nav-link px-4" href="#">SERVIÇOS</a>
-						            </li>
-						            <li class="nav-item">
-						              <a class="nav-link px-4" href="#">DOWNLOAD</a>
-						            </li>
-						            <li class="nav-item">
-						              <a class="nav-link px-4" href="#">CONTATO</a>
-						            </li>
-						            <li class="nav-item">
-						              <a class="nav-link px-4" href="#">BLOG</a>
-						            </li>
-						          </ul>
-						        </div>
-						      </div>
-						    </nav>
-						</div>
-					</div>
-					<div class="row">
-						
-					    <div class="carrosel col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1">
-					    	<h1 class="texto-carrosel">VAMOS LEVAR<br />
-					    	SUA EMPRESA PARA<br />
-					    	O PRÓXIMO NÍVEL!</h1>
-					    </div>
-					</div>
-					<div class="row row-consultoria d-none d-sm-none d-md-block">
-						<!-- Formulário Consultoria -->
-						<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 opaque-form">
-							<form>
-								<div class="row">
-									<label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
-								</div>
-								<div class="row m-0">
-									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-										<input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
-									</div>
-									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-										<input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
-									</div>
-									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-										<input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
-									</div>
-									<div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
-										<input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
-									</div>
-									<div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
-										<input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="form-mobile">
-					<div class="row row-consultoria d-md-none d-lg-none d-xl-none">
-						<!-- Formulário Consultoria Mobile-->
-						<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 no-opaque-form">
-							<form>
-								<div class="row">
-									<label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
-								</div>
-								<div class="row m-0">
-									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-										<input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
-									</div>
-									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-										<input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
-									</div>
-									<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-										<input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
-									</div>
-									<div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
-										<input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
-									</div>
-									<div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
-										<input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 col-md-6 col-lg-3 offset-lg-1 txt-desafio">
-						<h1 class="title-desafio"><span class="title-artigo">O</span><br />
-							DESAFIO
-						</h1>
-						<p class="p-desafio">O mercado atual é caracterizado pela alta competitividade, no qual, as organizações são constantemente desafiadas a atender rigorosos padrões de qualidade nos serviços oferecidos. Com isso, as empresas de todos os segmentos lidam com clientes com expectativas extremamente elevadas e que procuram o melhor produto.</p>
-
-						<p class="p-desafio">Você, executivo, precisa assumir um papel fundamental para garantir que a cadeia de suprimento seja mantida, provando seu comprometimento em superar as pressões do dia a dia. Com a implementação de sistemas integrados de gestão da qualidade, as empresas estão transformando sua cultura, buscando elevar a qualidade dos produtos, processos e serviços, reduzindo o retrabalho, o erro e consequentemente os custos.</p>
-					</div>
-					<div class="col-md-6 col-lg-7 itens-desafio">
-						<div class="row">
-							<div class="col-md-5 col-lg-6 titles-itens">
-								<h2>SATISFAÇÃO<br />
-								DOS CLIENTES</h2>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="./src/css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="./src/icons/css/all.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/animate.css">
+	<title>New Chapter - Home</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="superior">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<nav class="navbar navbar-expand-lg navbar-dark opaque-navbar">
+						<div class="container">
+							<!-- Logomarca -->
+							<a class="navbar-brand" href="#">
+								<img src="./src/img/logo.png" class="logo" alt="" />
+							</a>
+							<div class="d-flex flex-row order-1 order-lg-3 div-icons">
+								<!-- Menu Social Media -->
+								<ul class="nav navbar-nav ml-auto flex-row">
+									<li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-facebook-f"></span></a></li>
+									<li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-instagram"></span></a></li>
+									<li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-youtube"></span></a></li>
+								</ul>
 							</div>
-							<div class="col-md-7 col-lg-6">
-								<p class="p-desafio">Necessidades, perspectivas e requisitos dos clientes internos e externos devem ser conhecidos para que o processo seja projetado de modo a produzir resultados que satisfaçam suas necessidades.</p>
+							<div class="order-2 menu-mobile">
+								<!-- Botão para menu mobile -->
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+							</div>
+							<!-- Menu geral -->
+							<div class="collapse navbar-collapse navbar-menu order-3 order-lg-1 navbar-menu-resp" id="navbarResponsive">
+								<ul class="navbar-nav ml-auto">
+									<li class="nav-item active">
+										<a class="nav-link px-4" href="#">HOME
+											<span class="sr-only">(current)</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link px-4" href="#">QUEM SOMOS</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link px-4" href="#">TREINAMENTOS</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link px-4" href="#">SERVIÇOS</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link px-4" href="#">DOWNLOAD</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link px-4" href="#">CONTATO</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link px-4" href="#">BLOG</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="row animated slideInLeft">
+				<!-- Imagem superior -->	
+				<div class="carrosel col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+					<h1 class="texto-carrosel">VAMOS LEVAR<br />
+						SUA EMPRESA PARA<br />
+					O PRÓXIMO NÍVEL!</h1>
+				</div>
+			</div>
+			<div class="row row-consultoria d-none d-sm-none d-md-block">
+				<!-- Formulário Consultoria -->
+				<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 opaque-form">
+					<form>
+						<div class="row">
+							<label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
+						</div>
+						<div class="row m-0">
+							<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+								<input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
+							</div>
+							<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+								<input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
+							</div>
+							<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+								<input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
+							</div>
+							<div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
+								<input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
+							</div>
+							<div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
+								<input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="form-mobile">
+			<div class="row row-consultoria d-md-none d-lg-none d-xl-none">
+				<!-- Formulário Consultoria Mobile-->
+				<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 no-opaque-form">
+					<form>
+						<div class="row">
+							<label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
+						</div>
+						<div class="row m-0">
+							<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+								<input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
+							</div>
+							<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+								<input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
+							</div>
+							<div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+								<input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
+							</div>
+							<div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
+								<input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
+							</div>
+							<div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
+								<input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<!-- Textos desafio -->
+				<div class="col-sm-12 col-md-6 col-lg-3 txt-desafio">
+					<h1 class="title-desafio titulos-mobile"><span class="title-artigo">O</span><br />
+						DESAFIO
+					</h1>
+					<p class="p-desafio">O mercado atual é caracterizado pela alta competitividade, no qual, as organizações são constantemente desafiadas a atender rigorosos padrões de qualidade nos serviços oferecidos. Com isso, as empresas de todos os segmentos lidam com clientes com expectativas extremamente elevadas e que procuram o melhor produto.</p>
+
+					<p class="p-desafio">Você, executivo, precisa assumir um papel fundamental para garantir que a cadeia de suprimento seja mantida, provando seu comprometimento em superar as pressões do dia a dia. Com a implementação de sistemas integrados de gestão da qualidade, as empresas estão transformando sua cultura, buscando elevar a qualidade dos produtos, processos e serviços, reduzindo o retrabalho, o erro e consequentemente os custos.</p>
+				</div>
+				<div class="col-md-6 col-lg-7 itens-desafio">
+					<div class="row">
+						<div class="col-md-5 col-lg-6 titles-itens">
+							<h2>SATISFAÇÃO<br />
+							DOS CLIENTES</h2>
+						</div>
+						<div class="col-md-7 col-lg-6">
+							<p class="p-desafio">Necessidades, perspectivas e requisitos dos clientes internos e externos devem ser conhecidos para que o processo seja projetado de modo a produzir resultados que satisfaçam suas necessidades.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row row-grafico">
+			<!-- Gráfico Desafio -->
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<img src="./src/img/grafico-desafio.png" class="grafico-desafio" />
+			</div>
+		</div>
+		<div>
+			<div class="container">
+				<div class="row">
+					<!-- Serviços -->
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<h1 class="title-servicos titulos-mobile"><span class="title-servicos-2">NOSSOS</span> SERVIÇOS</h1>
+					</div>
+					<div class="row row-servicos">
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="img-servicos">
+								<img src="./src/img/img-bas.png" />
+								<label>BUSINESS ADVISORY SERVICES</label>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="img-servicos">
+								<img src="./src/img/img-consultoria.png" />
+								<label>PROJETOS DE CONSULTORIA</label>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="img-servicos">
+								<img src="./src/img/img-outsourcing.png" />
+								<label>OUTSOURCING KEY PROCESS</label>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="destaques">
+			<div class="container">	
+				<div class="row">			
+					<!-- Destaques -->
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<h1 class="title-destaques titulos-mobile">MATERIAIS EM DESTAQUE</h1>
+					</div>
+					<div class="row row-img-destaques text-center">
+						<div class="col-sm-12 col-md-4 col-lg-4  ">
+							<div class="img-destaques">
+								<img src="./src/img/img-sabotar.png" />
+								<label class="label-destaques">11 maneiras de sabotar sua estratégia de Redução de Custo</label>
+								<label class="link-ebook hidden-grande">BAIXE O EBOOK</label>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="img-destaques">
+								<img src="./src/img/img-produtividade.png" />
+								<label class="label-destaques">Como aumentar a produtividade de sua empresa treinando seus colaboradores</label>
+								<label class="link-ebook hidden-grande">BAIXE O EBOOK</label>				
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="img-destaques">
+								<img src="./src/img/img-reducao-custo.png" />
+								<label class="label-destaques">Redução de Custo: Expectativas e Realidade</label>
+								<label class="link-ebook hidden-grande">BAIXE O EBOOK</label>
+							</div>
+						</div>
+					</div>
+					<div class="row row-img-destaques text-center hidden-pequeno ">
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<label class="link-ebook">BAIXE O EBOOK</label>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<label class="link-ebook">BAIXE O EBOOK</label>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<label class="link-ebook">BAIXE O EBOOK</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<!-- Benefícios -->
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h1 class="title-servicos titulos-mobile"><span class="title-servicos-2">PRINCIPAIS BENEFÍCIOS</span><br />DA CONSULTORIA</h1>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="row row-servicos">
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="img-beneficios">
+								<img src="./src/img/temp-black.png" />
+								<label>MAPEAMENTO DE PROCESSOS</label>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="img-beneficios">
+								<img src="./src/img/temp-black.png" />
+								<label>AVALIAÇÃO DE COMPETÊNCIAS</label>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="img-beneficios">
+								<img src="./src/img/temp-black.png" />
+								<label>GESTÃO DE PLANOS DE AÇÃO</label>
+							</div>
+						</div>	
+					</div>
+					<div class="row row-servicos">
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="img-beneficios">
+								<img src="./src/img/temp-black.png" />
+								<label>ELABORAÇÃO DE QUESTIONÁRIOS </label>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="img-beneficios">
+								<img src="./src/img/temp-black.png" />
+								<label>GESTÃO DE AUDITÓRIA</label>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<div class="img-beneficios">
+								<img src="./src/img/temp-black.png" />
+								<label>GESTÃO DE AUDITÓRIA</label>
+							</div>
+						</div>	
+					</div>					
+				</div>
+				<!-- Lista Benefícios -->
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<ul class="lista-beneficios">
+						<li>Possuímos uma visão externa ampla, nos baseamos em experiências e situações idênticas ou semelhantes, em grandes diversidades de contextos, atividades e serviços para resolver o seu problema.</li>
+						<li>A experiência nas soluções de problemas semelhantes facilita no momento de encontrar a melhor solução.</li>
+						<li>Visão holística que ultrapassa a realidade da empresa, enxergando aquilo que está sendo vivido em outros setores, a situação da economia e as tendências que estão chegando.</li>
+						<li>Suporte para tomada de decisões estratégicas, táticas e operacionais, aumentando as chances de sucesso.</li>
+						<li>Melhoria da lucratividade e eliminação dos retrabalhos</li>
+						<li>Estruturação da empresa como um todo, auxiliando no crescimento ordenado e seguro.</li>
+						<li>Criar um excelente clima dentro da organização (colaboradores, diretores, sócios)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="certificados">
+			<div class="container">	
+				<div class="row">
+					<!-- Certificados -->
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<h2 class="titulo-certificados">CERTIFICADOS</h2>
+						<p class="texto-certificados">As certificações ISO 9001 e SASSMAQ podem proporcionar um sólido reconhecimento por parte dos seus clientes e demais partes interessadas, além de estabelecer um processo contínuo de melhoria.</p>
+						<p class="texto-certificados">Ajudamos sua empresa a definir o modelo de referência que melhor atenderá sua demanda, pois, somente com uma organização adequada e preparada terá novas oportunidades num mercado cada vez mais competitivo e exigente.</p>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-5 centro-certificados">
+						<div class="logistica-centro">
+							<h3 class="midcol-certificados">LOGÍSTICA</h3>
+							<img src="./src/img/marcador-circular.png" class="marcador-circular" />
+						</div>
+						<div class="setores-centro">
+							<h3 class="midcol-certificados">TODOS OS<br />SETORES</h3>
+							<img src="./src/img/marcador-circular.png" class="marcador-circular" />
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-			<!-- Bootstrap JS -->
-		    <script src="./src/js/jquery.min.js"></script>
-		    <script src="./src/js/bootstrap.bundle.min.js"></script>
-		</body>
-	</html>
+<!-- Bootstrap JS -->
+<script src="./src/js/jquery.min.js"></script>
+<script src="./src/js/bootstrap.bundle.min.js"></script>
+
+<!-- Script para fixar barra ao topo -->
+<script type="text/javascript">
+	var width = $(window).width();
+	$(window).resize(function () {
+		if (width <= '990') {
+			$('.navbar').addClass('fixed-top');
+		}else{
+			$('.navbar').removeClass('fixed-top');
+		}
+	});
+</script>
+</body>
+</html>
