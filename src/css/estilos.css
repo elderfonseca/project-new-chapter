@@ -273,6 +273,13 @@ body{
 	background-size: 45%;
 }
 
+.white-line {
+  height: 2px;
+  width: 60%;
+  margin-left: 20%;
+  background-color: #fff;
+}
+
 .titles-itens{
 	padding-top: 1,85%;
 	padding-bottom: 3s%;
@@ -455,15 +462,15 @@ body{
 	font-family: "MontserratBold";
 	font-size: 2.5rem;
 	color: #fff;
-	padding-top: 15%;
-	padding-bottom: 15%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 .texto-certificados {
 	font-family: "MontserratRegular";
-	font-size: 0.96rem;
-	color: #fff;
-	width: 73%;
+    font-size: 0.89rem;
+    color: #fff;
+    width: 75%;
 }
 
 .centro-certificados {
@@ -474,17 +481,17 @@ body{
 }
 
 .logistica-centro {
-	padding-top: 35%;
-	padding-bottom: 45%;
+    padding-top: 35%;
+    padding-bottom: 25%;
 }
 
 .midcol-certificados {
 	font-family: "MontserratExtraBold";
-	color: #fff;
-	text-align: right;
-	float: left;
-	padding-left: 40%;
-	padding-right: 12.3%;
+    color: #fff;
+    text-align: right;
+    float: left;
+    padding-left: 38%;
+    padding-right: 5.4%;
 }
 
 .marcador-circular {
@@ -493,7 +500,8 @@ body{
 
 .setores-centro {
 	padding-left: 5px;
-	padding-bottom: 35%;
+    padding-bottom: 33%;
+    padding-top: 21%;
 }
 
 .setores-centro img {
@@ -503,4 +511,18 @@ body{
 .certificados{
 	background-color: #164194;
 	overflow: hidden;
+}
+
+.texto-certificados-r {
+    font-family: "MontserratRegular";
+    font-size: 0.89rem;
+    color: #fff;
+}
+
+.logistica-texto {
+    padding-top: 11%;
+}
+
+.setores-texto {
+    padding-top: 6%;
 }
