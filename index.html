@@ -22,62 +22,84 @@
 <body>
     <div class="container-fluid">
         <div class="superior">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark opaque-navbar fixed-top">
-                        <div class="container">
-                            <!-- Logomarca -->
-                            <a class="navbar-brand" href="#">
-                                <img src="./src/img/logo.png" class="logo" alt="" />
-                            </a>
-                            <div class="d-flex flex-row order-1 order-lg-3 div-icons">
-                                <!-- Menu Social Media -->
-                                <ul class="nav navbar-nav ml-auto flex-row">
-                                    <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-instagram"></span></a></li>
-                                    <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-youtube"></span></a></li>
-                                </ul>
-                            </div>
-                            <div class="order-2 menu-mobile">
-                                <!-- Botão para menu mobile -->
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </div>
-                            <!-- Menu geral -->
-                            <div class="collapse navbar-collapse navbar-menu order-3 order-lg-1 navbar-menu-resp" id="navbarResponsive">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link px-4" href="#">HOME
-                                            <span class="sr-only">(current)</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-4" href="#">QUEM SOMOS</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-4" href="#">TREINAMENTOS</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-4" href="#">SERVIÇOS</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-4" href="#">DOWNLOAD</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-4" href="#">CONTATO</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-4" href="#">BLOG</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
+
+            <nav class="navbar navbar-expand-lg navbar-dark opaque-navbar fixed-top">
+                <div class="container container-navbar">
+                    <!-- Logomarca -->
+                    <a class="navbar-brand" href="#">
+                        <img src="./src/img/logo.png" class="logo" alt="" />
+                    </a>
+                    <div class="d-flex flex-row order-1 order-lg-3 div-icons">
+                        <!-- Menu Social Media -->
+                        <ul class="nav navbar-nav ml-auto flex-row">
+                            <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-facebook-f"></span></a></li>
+                            <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-instagram"></span></a></li>
+                            <li class="nav-item icons active"><a class="nav-link px-2" href="#"><span class="fab fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="order-2 menu-mobile">
+                        <!-- Botão para menu mobile -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <!-- Menu geral -->
+                    <div class="collapse navbar-collapse navbar-menu order-3 order-lg-1 navbar-menu-resp" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link px-4" href="#">HOME
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#">QUEM SOMOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a class="nav-link px-4 dropdown-toggle" role="button" id="dropdownMenuTreinamentos" href="#" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">TREINAMENTOS</a>
+                                    <div class="dropdown-menu menu-treinamentos" aria-labelledby="dropdownMenuTreinamentos">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 col-lg-4 coluna-1">
+                                                <h2 class="dropdown-header titulo-dropdown">TREINAMENTOS</h2>
+                                                <div class="linha-titulo"></div>
+                                                <a class="dropdown-item" href="#">Por que as operações falham</a>
+                                                <a class="dropdown-item" href="#">Excel Empresarial</a>
+                                                <a class="dropdown-item" href="#">Ferramentas de Gestão </a>
+                                                <a class="dropdown-item" href="#">Logística Orientada a Processos </a>
+                                                <a class="dropdown-item" href="#">Liderança</a>
+                                            </div>
+                                            <div class="col-10 col-sm-10 col-md-4 col-lg-4 offset-xs-1 offset-sm-1 offset-md-0 coluna-2">
+                                                <img src="./src/img/img-titulo.png" class="img-menu" />
+                                                <h2 class="dropdown-header titulo-coluna2">Eu sou um título</h2>
+                                                <a class="dropdown-item saiba-mais" href="#">Saiba mais</a>
+                                            </div>
+                                            <div class="col-10 col-sm-10 col-md-4 col-lg-4 offset-xs-1 offset-sm-1 offset-md-0">
+                                                <img src="./src/img/img-drop.png" class="img-drop" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#">SERVIÇOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#">DOWNLOAD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#">CONTATO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#">BLOG</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="row animated slideInLeft">
+            </nav>
+
+            <div class="row" data-aos="fade-right">
                 <!-- Imagem superior -->
                 <div class="carrosel col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1">
                     <h1 class="texto-carrosel">VAMOS LEVAR<br /> SUA EMPRESA PARA<br /> O PRÓXIMO NÍVEL!</h1>
@@ -143,7 +165,7 @@
         <div class="container">
             <div class="row">
                 <!-- Textos desafio -->
-                <div class="col-sm-12 col-md-4 col-lg-4 txt-desafio">
+                <div class="col-sm-12 col-md-4 col-lg-4 txt-desafio" data-aos="fade-right">
                     <h1 class="title-desafio titulos-mobile"><span class="title-artigo">O</span><br /> DESAFIO
                     </h1>
                     <p class="p-desafio">O mercado atual é caracterizado pela alta competitividade, no qual, as organizações
@@ -157,7 +179,7 @@
                         cultura, buscando elevar a qualidade dos produtos, processos e serviços, reduzindo o retrabalho,
                         o erro e consequentemente os custos.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 itens-desafio">
+                <div class="col-sm-12 col-md-4 col-lg-4 itens-desafio" data-aos="zoom-out">
                     <div class="satisfacao-centro">
                         <h3 class="midcol-satisfacao">SATISFAÇÃO<br />DOS CLIENTES</h3>
                         <img src="./src/img/marcador-circular.png" class="marcador-circular" />
@@ -178,7 +200,7 @@
                         <img src="./src/img/marcador-circular.png" class="marcador-circular" />
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-left">
                     <p class="texto-desafios-r satisfacao-texto">Necessidades, perspectivas e requisitos dos clientes internos
                         e externos devem ser conhecidos para que o processo seja projetado de modo a produzir resultados
                         que satisfaçam suas necessidades.</p>
@@ -289,19 +311,19 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="row row-servicos">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-down-right">
                             <div class="img-beneficios">
                                 <img src="./src/img/temp-black.png" />
                                 <label>MAPEAMENTO DE PROCESSOS</label>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-down">
                             <div class="img-beneficios">
                                 <img src="./src/img/temp-black.png" />
                                 <label>AVALIAÇÃO DE COMPETÊNCIAS</label>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-down-left">
                             <div class="img-beneficios">
                                 <img src="./src/img/temp-black.png" />
                                 <label>GESTÃO DE PLANOS DE AÇÃO</label>
@@ -309,19 +331,19 @@
                         </div>
                     </div>
                     <div class="row row-servicos">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up-right">
                             <div class="img-beneficios">
                                 <img src="./src/img/temp-black.png" />
                                 <label>ELABORAÇÃO DE QUESTIONÁRIOS </label>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up">
                             <div class="img-beneficios">
                                 <img src="./src/img/temp-black.png" />
                                 <label>GESTÃO DE AUDITÓRIA</label>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up-left">
                             <div class="img-beneficios">
                                 <img src="./src/img/temp-black.png" />
                                 <label>GESTÃO DE AUDITÓRIA</label>
@@ -330,7 +352,7 @@
                     </div>
                 </div>
                 <!-- Lista Benefícios -->
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="zoom-in">
                     <ul class="lista-beneficios">
                         <li>Possuímos uma visão externa ampla, nos baseamos em experiências e situações idênticas ou semelhantes,
                             em grandes diversidades de contextos, atividades e serviços para resolver o seu problema.</li>
@@ -353,7 +375,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Certificados -->
-                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-right">
                         <h2 class="titulo-certificados">CERTIFICADOS</h2>
                         <p class="texto-certificados">As certificações ISO 9001 e SASSMAQ podem proporcionar um sólido reconhecimento
                             por parte dos seus clientes e demais partes interessadas, além de estabelecer um processo contínuo
@@ -362,7 +384,7 @@
                             sua demanda, pois, somente com uma organização adequada e preparada terá novas oportunidades
                             num mercado cada vez mais competitivo e exigente.</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 centro-certificados hidden-pequeno">
+                    <div class="col-sm-12 col-md-4 col-lg-4 centro-certificados hidden-pequeno" data-aos="zoom-in">
                         <div class="logistica-centro">
                             <h3 class="midcol-certificados">LOGÍSTICA</h3>
                             <img src="./src/img/marcador-circular.png" class="marcador-circular" />
@@ -373,7 +395,7 @@
                             <img src="./src/img/marcador-circular.png" class="marcador-circular" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-left">
                         <p class="texto-certificados-r logistica-texto">O SASSMAQ é um diferencial competitivo para os prestadores
                             de serviço de logística de produtos químicos. Com a certificação, o transportador se beneficia
                             da utilização de um sistema reconhecido pelas Indústrias Químicas, que garantirá sua competitividade
@@ -405,25 +427,25 @@
                                 /></span> PELA NEW CHAPTER</h1>
                     </div>
                     <div class="row row-servicos">
-                        <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-sm-12 col-md-3 col-lg-3" data-aos="fade-right">
                             <div class="img-outros-servicos">
                                 <img src="./src/img/img-recuperacao-tributos.png" />
                                 <label>RECUPERAÇÃO DE TRIBUTOS</label>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-sm-12 col-md-3 col-lg-3" data-aos="fade-right">
                             <div class="img-outros-servicos">
                                 <img src="./src/img/img-projetos-consultoria.png" />
                                 <label>PROJETOS DE CONSULTORIA</label>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-sm-12 col-md-3 col-lg-3" data-aos="fade-right">
                             <div class="img-outros-servicos">
                                 <img src="./src/img/img-inventario.png" />
                                 <label>INVENTÁRIO COMPORTAMENTAL</label>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-sm-12 col-md-3 col-lg-3" data-aos="fade-right">
                             <div class="img-outros-servicos">
                                 <img src="./src/img/img-auditoria.png" />
                                 <label class="label-auditoria">AUDITORIA</label>
@@ -496,122 +518,127 @@
                     </div>
                     <div class="row row-clientes">
                         <div class="col-sm-6 col-md-3 col-lg-3 logo-1">
-                        	<img src="./src/img/logo-adidas.png" class="logo-clientes">
+                            <img src="./src/img/logo-adidas.png" class="logo-clientes">
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 logo-1">
-                        	<img src="./src/img/logo-redbull.png" class="logo-clientes">
+                            <img src="./src/img/logo-redbull.png" class="logo-clientes">
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 logo-1">
-                        	<img src="./src/img/logo-hugo-boss.png" class="logo-clientes">
+                            <img src="./src/img/logo-hugo-boss.png" class="logo-clientes">
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 logo-2">
-                        	<img src="./src/img/logo-cocacola.png" class="logo-clientes">
+                            <img src="./src/img/logo-cocacola.png" class="logo-clientes">
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 logo-3">
-                        	<img src="./src/img/logo-cocacola.png" class="logo-clientes">
+                            <img src="./src/img/logo-cocacola.png" class="logo-clientes">
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 logo-3">
-                        	<img src="./src/img/logo-adobe.png" class="logo-clientes">
+                            <img src="./src/img/logo-adobe.png" class="logo-clientes">
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 logo-3">
-                        	<img src="./src/img/logo-redbull.png" class="logo-clientes">
+                            <img src="./src/img/logo-redbull.png" class="logo-clientes">
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3">
-                        	<img src="./src/img/logo-adidas.png" class="logo-clientes">
+                            <img src="./src/img/logo-adidas.png" class="logo-clientes">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="contatos-rodape">
-        	<div class="container">
-        		<div class="row">
-        			<!-- Contatos Rodapé -->
-        			<div class="col-sm-12 col-md-12 col-lg-12">
-        				<div class="titulo-historias">
+            <div class="container">
+                <div class="row">
+                    <!-- Contatos Rodapé -->
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="titulo-contatos">
                             <h3>CONTATO</h3>
                         </div>
-        			</div>
-        			<div class="row">
-        				<div class="col-sm-10 col-md-8 col-lg-8 offset-sm-1 offset-md-3 offset-lg-3">
-        					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959.7556708371542!2d-47.95774137085091!3d-15.802757908897563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3053f1c69fdd%3A0x44158652806d0a0a!2sLot+625%2F695+-+SIA+Trecho+3+-+Bras%C3%ADlia%2C+DF%2C+71200-030!5e0!3m2!1spt-BR!2sbr!4v1535652243081" width="768" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-        				</div>
-        			</div>
-        			<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 form-contato">
-	                    <form>
-	                        <div class="row m-0">
-	                            <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-	                                <input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
-	                            </div>
-	                            <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-	                                <input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
-	                            </div>
-	                            <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-	                                <input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
-	                            </div>
-	                            <div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
-	                                <input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
-	                            </div>
-	                            <div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
-	                                <input type="submit" name="Enviar" class="btn btn-enviar-contato" id="enviar" value="ENVIAR" />
-	                            </div>
-	                        </div>
-	                    </form>
-                	</div>
-                	<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
-                		<div class="icons-contato">
-                			<ul class="social">
-                    			<li class="item-social"><a href="#" class="fab fa-facebook-f" title="Facebook"></a></li>
-                    			<li class="item-social"><a href="#" class="fab fa-twitter" title="Twitter"></a></li>
-                    			<li class="item-social"><a href="#" class="fab fa-google-plus-g" title="Google Plus"></a></li>
-                    			<li class="item-social"><a href="#" class="fab fa-instagram" title="Instagram"></a></li>
-                    		</ul>              			
-                		</div>
-                	</div>
-                	<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
-                		<p class="texto-contato">Endereço: SIA Trecho 3, Sala 130B - Ed. SIA Centro Empresarial - Brasília-DF<br />Telefone: (61) 0123 4567 / (61) 3456 7890<br />Email : contato@newchapter.com</p>
-                	</div>
-                	<div class="white-line-bottom"></div>
-                	<div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
-                		<p class="texto-contato">© Promove Comunicação. Todos os direitos reservados</p>
-                	</div>
+                    </div>
                 </div>
-        	</div>
+
+                <div class="row">
+                    <div class="col-sm-10 col-md-8 col-lg-8 offset-sm-1 offset-md-2 offset-lg-2">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.0227152364137!2d-47.95947408568916!3d-15.802756227369345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3053edfe2941%3A0x6b2e50c7d439353e!2sLot+625%2F695+-+SIA+Trecho+3+-+Bras%C3%ADlia%2C+DF%2C+71200-030!5e0!3m2!1spt-BR!2sbr!4v1535724716700" frameborder="0" allowfullscreen class="google-maps "></iframe>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 form-contato" data-aos="flip-left">
+                        <form>
+                            <div class="row m-0">
+                                <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+                                    <input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
+                                </div>
+                                <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+                                    <input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
+                                </div>
+                                <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
+                                    <input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
+                                </div>
+                                <div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
+                                    <input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
+                                </div>
+                                <div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
+                                    <input type="submit" name="Enviar" class="btn btn-enviar-contato" id="enviar" value="ENVIAR" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2" data-aos="zoom-in">
+                        <div class="icons-contato">
+                            <ul class="social">
+                                <li class="item-social"><a href="#" class="fab fa-facebook-f" title="Facebook"></a></li>
+                                <li class="item-social"><a href="#" class="fab fa-twitter" title="Twitter"></a></li>
+                                <li class="item-social"><a href="#" class="fab fa-google-plus-g" title="Google Plus"></a></li>
+                                <li class="item-social"><a href="#" class="fab fa-instagram" title="Instagram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2" data-aos="zoom-in">
+                        <p class="texto-contato">Endereço: SIA Trecho 3, Sala 130B - Ed. SIA Centro Empresarial - Brasília-DF<br
+                            />Telefone: (61) 0123 4567 / (61) 3456 7890<br />Email : contato@newchapter.com</p>
+                    </div>
+                    <div class="white-line-bottom"></div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
+                        <p class="texto-contato">© Promove Comunicação. Todos os direitos reservados</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
-	<!-- Bootstrap JS -->
-    <script src="./src/js/jquery.min.js"></script>
-    <script src="./src/js/bootstrap.bundle.min.js"></script>
-    <script src="./src/js/bootstrap.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="./src/js/jquery.min.js"></script>
+<script src="./src/js/bootstrap.bundle.min.js"></script>
+<script src="./src/js/bootstrap.min.js"></script>
 
-    <!-- Script para animação -->
-    <script src="./src/js/aos.js"></script>
-    <script>
-		AOS.init();
-	</script>
+<!-- Script para animação -->
+<script src="./src/js/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
-    <!-- Script para mudar a barra Transparente para solida ao rolar a página -->
-    <script type="text/javascript">
-        
-        $(window).scroll(function () {
+<!-- Script para mudar a barra Transparente para solida ao rolar a página -->
+<script type="text/javascript">
 
-            var top = $(window).scrollTop();
+    $(window).scroll(function () {
+
+        var top = $(window).scrollTop();
 
 
-            var hasClass = $('.navbar').hasClass('bg-solid');
+        var hasClass = $('.navbar').hasClass('bg-solid');
 
-            if (top > 10) {
-                if (!hasClass) {
-                    console.log("add");
-                    $('.navbar').addClass('bg-solid');
-                }
-            } else if (hasClass) {
-                console.log("rm");
-                $('.navbar').removeClass('bg-solid');
+        if (top > 10) {
+            if (!hasClass) {
+                console.log("add");
+                $('.navbar').addClass('bg-solid');
             }
+        } else if (hasClass) {
+            console.log("rm");
+            $('.navbar').removeClass('bg-solid');
+        }
 
-        });
-    </script>
+    });
+</script>
 
 </html>
