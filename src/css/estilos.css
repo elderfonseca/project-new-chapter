@@ -113,8 +113,8 @@ body {
 
 .coluna-1 a {
 	font-family: "MontserratMedium";
-    font-size: 0.7rem;
-    color: #636363;
+	font-size: 0.7rem;
+	color: #636363;
 	padding-bottom: 11%;
 }
 
@@ -134,7 +134,7 @@ body {
 
 .img-menu {
 	width: 90%;
-    padding-left: 10%;
+	padding-left: 10%;
 }
 
 .titulo-coluna2 {
@@ -147,12 +147,12 @@ body {
 
 .saiba-mais {
 	font-family: "MontserratBold";
-    color: #2e2e2e;
-    font-size: 0.7rem;
-    text-align: center;
-    background-color: #fdbf2b;
-    padding: 8px 0 8px 0;
-    width: 68%;
+	color: #2e2e2e;
+	font-size: 0.7rem;
+	text-align: center;
+	background-color: #fdbf2b;
+	padding: 8px 0 8px 0;
+	width: 68%;
 	margin-left: 17%;
 	margin-bottom: 10%;
 }
@@ -960,4 +960,173 @@ body {
 	margin-left: 20%;
 	background-color: #fff;
 	margin-bottom: 3%;
+}
+
+/* Estilos para a página quem somos */
+
+.superior-quem-somos {
+	background-image: url(../img/bkg-quem-somos.png);
+	background-size: 112%;
+	background-repeat: no-repeat;
+	background-position-y: 34%;
+	background-position-x: 44%;
+	overflow: hidden;
+}
+
+.quem-somos {
+	padding-bottom: 3%;
+}
+
+.title-quem-somos {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: "MontserratBold";
+	font-size: 2rem;
+	color: #123274;
+}
+
+.p-quem-somos {
+	font-family: "MontserratRegular";
+	color: #636363;
+	width: 100%;
+	font-size: 0.77rem;
+}
+
+.txt-visao {
+	font-family: "MontserratRegular";
+	color: #636363;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	padding-top: 7%;
+}
+
+.nome-visao {
+	font-family: "MontserratRegular";
+	color: #636363;
+	width: 100%;
+	text-align: center;
+	font-size: 0.85rem;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.lista-quem-somos {
+	font-family: "MontserratRegular";
+	font-size: 0.73rem;
+	list-style: none;
+	list-style-position: outside;
+	padding-left: inherit;
+	padding-bottom: 5%;
+}
+
+.lista-quem-somos li {
+	padding-bottom: 6%;
+}
+
+.lista-quem-somos li::before {
+	content: "•";
+	color: #0d529e;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+/* Estilos para a página Serviços */
+
+.superior-servicos {
+	background-image: url(../img/bkg-servicos.png);
+	background-size: 112%;
+	background-repeat: no-repeat;
+	background-position-y: 34%;
+	background-position-x: 44%;
+	overflow: hidden;
+}
+
+/* Estilos para a página Contato */
+
+.superior-contato {
+	background-image: url(../img/bkg-servicos.png);
+	background-size: 112%;
+	background-repeat: no-repeat;
+	background-position-y: 34%;
+	background-position-x: 44%;
+	overflow: hidden;
+}
+
+/* Estilos para a página Blog */
+
+.row-ultimos-artigos {
+	padding-top: 6%;
+}
+
+.img-materias {
+	display: inline-block;
+	position: relative;
+}
+
+.img-materias img {
+	width: 100%;
+}
+
+.img-materias label {
+	position: absolute;
+	top: 73%;
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: "MontserratBold";
+	color: white;
+	background-color: rgba(22, 65, 148, 0.75);
+	transition: background-color .5s ease 0s;
+	margin-left: 40px;
+	margin-right: 30px;
+	padding: 5% 20% 5% 20%;
+}
+
+.blog-publi {}
+
+.blog-publi img {
+	width: 100%;
+}
+
+.blog-publi h3 {
+	font-family: "MontserratBold";
+	font-size: 1.2rem;
+	color: #193772;
+	padding-top: 10%;
+}
+
+.blog-publi h4 {
+	font-family: "MontserratBold";
+	font-size: 1rem;
+	color: #636363;
+	padding-top: 5%;
+}
+
+.blog-publi h5 {
+	font-family: "MontserratRegular";
+	font-size: 0.55rem;
+	color: #636363;
+}
+
+.blog-publi p {
+	font-family: "MontserratRegular";
+	font-size: 0.85rem;
+	color: #636363;
+	padding-top: 2%;
+	border-bottom: solid 1px #636363;
+	padding-bottom: 5%;
+}
+
+.btn-pesquisar {
+	background-color: #293896;
+	color: #fff;
+	width: 45px;
+	height: 39px;
+	border-radius: 10%;
+	border: none;
+}
+
+.pesquisa-blog {
+	padding-top: 5%;
 }
