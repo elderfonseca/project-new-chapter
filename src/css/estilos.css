@@ -1083,8 +1083,6 @@ body {
 	padding: 5% 20% 5% 20%;
 }
 
-.blog-publi {}
-
 .blog-publi img {
 	width: 100%;
 }
@@ -1129,4 +1127,116 @@ body {
 
 .pesquisa-blog {
 	padding-top: 5%;
+}
+
+/* Estilos para a página Download */
+
+.download-01 img {
+	width: 100%;
+}
+
+.download-01 p {
+	font-family: "MontserratRegular";
+	color: #636363;
+	font-size: 0.8rem;
+	padding-top: 3%;
+	padding-left: 3%;	
+}
+
+.download-01 ul {
+	list-style-type: decimal;
+	font-family: "MontserratRegular";
+	color: #636363;
+	font-size: 0.8rem;
+	padding-bottom: 7%;
+}
+
+.div-form {
+	position: absolute;
+	background-color: #1a293e;
+	padding-bottom: 7%;
+}
+
+.form-topo {
+	background-color: #193772;
+	padding-bottom: 4%;
+	padding-top: 6%;
+	text-align: center;
+	margin-left: -15px;
+	margin-right: -15px;
+	position: relative;
+}
+
+.form-topo::before {
+	border: 10px solid transparent;
+    border-top-color: #193772;
+    content: "";
+    bottom: -20px;
+    left: 40px;
+    position: absolute;
+}
+
+.form-topo h4 {
+	font-family: "MontserratBold";
+	font-size: 0.9rem;
+	color: #fff;	
+}
+
+.form-instr {
+	padding-top: 17%;
+	font-family: "MontserratRegular";
+	color: #fff;
+	font-size: 0.87rem;
+	padding-left: 5%;
+}
+
+.solicita-download {
+	padding-top: 13%;
+}
+
+.solicita-download label {
+	font-family: "MontserratRegular";
+	color: #fff;
+	font-size: 0.87rem;	
+}
+
+.solicita-download select {
+	padding: 10px;
+	width: 100%;
+	font-family: "MontserratBold";
+    color: #afafaf;
+    font-size: 11px;
+}
+
+.btn-receber {
+	font-family: "MontserratBold";
+	color: #2e2e2e;
+	font-size: 0.7rem;
+	text-align: center;
+	background-color: #fdbf2b;
+	padding: 10px;
+	width: 100%;
+	border-radius: 0;
+}
+
+.compartilhe {
+	padding-bottom: 9%;
+}
+
+.comp-face {
+	width: 13%;
+}
+
+.comp-linkedin {
+	width: 13%;
+    margin-left: 2%;
+}
+
+.white-line-download {
+	height: 3px;
+	width: 60%;
+	margin-left: 20%;
+	background-color: #fff;
+	margin-bottom: 3%;
+	margin-top: 10%;
 }
