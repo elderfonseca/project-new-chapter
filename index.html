@@ -110,22 +110,22 @@
             <div class="row row-consultoria d-none d-sm-none d-md-block" data-aos="flip-left">
                 <!-- Formulário Consultoria -->
                 <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 opaque-form">
-                    <form>
+                    <form name="form-consultoria">
                         <div class="row">
                             <label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
                         </div>
                         <div class="row m-0">
                             <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-                                <input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
+                                <input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" required="required" />
                             </div>
                             <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-                                <input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
+                                <input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" required="required" />
                             </div>
                             <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-                                <input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
+                                <input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" required="required" />
                             </div>
                             <div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
-                                <input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
+                                <input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" required="required" />
                             </div>
                             <div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
                                 <input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
@@ -139,22 +139,22 @@
             <div class="row row-consultoria d-md-none d-lg-none d-xl-none" data-aos="flip-left">
                 <!-- Formulário Consultoria Mobile-->
                 <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 no-opaque-form">
-                    <form>
+                    <form name="form-consultoria">
                         <div class="row">
                             <label class="label-form col-sm-12 col-md-8 col-lg-12">TENHA UMA CONSULTORIA EMPRESARIAL PERSONALIZADA</label>
                         </div>
                         <div class="row m-0">
                             <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-                                <input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" />
+                                <input type="text" name="Nome" class="input-txt" placeholder="Nome" id="nome" required="required" />
                             </div>
                             <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-                                <input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" />
+                                <input type="text" name="Email" class="input-txt" placeholder="E-mail" id="email" required="required" />
                             </div>
                             <div class="form-group col-sm-11 col-md-4 col-lg-4 col-xs-11">
-                                <input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" />
+                                <input type="text" name="Telefone" class="input-txt" placeholder="Telefone" id="telefone" required="required" />
                             </div>
                             <div class="form-group col-lg-10 col-md-8 col-sm-11 col-xs-11">
-                                <input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" />
+                                <input type="text" name="Mensagem" class="input-txt" placeholder="Mensagem" id="Mensagem" required="required" />
                             </div>
                             <div class="form-group col-lg-2 col-md-4 col-sm-11 col-xs-11">
                                 <input type="submit" name="Enviar" class="btn btn-enviar" id="enviar" value="ENVIAR" />
@@ -181,7 +181,7 @@
                         cultura, buscando elevar a qualidade dos produtos, processos e serviços, reduzindo o retrabalho,
                         o erro e consequentemente os custos.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 itens-desafio" data-aos="zoom-out">
+                <div class="col-md-4 col-lg-4 itens-desafio hidden-pequeno" data-aos="zoom-out">
                     <div class="satisfacao-centro">
                         <h3 class="midcol-satisfacao">SATISFAÇÃO<br />DOS CLIENTES</h3>
                         <img src="./src/img/marcador-circular.png" class="marcador-circular" />
@@ -202,16 +202,20 @@
                         <img src="./src/img/marcador-circular.png" class="marcador-circular" />
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-left">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 desafios-mobile" data-aos="fade-left">
+                    <h3 class="hidden-grande">SATISFAÇÃO<br />DOS CLIENTES</h3>
                     <p class="texto-desafios-r satisfacao-texto">Necessidades, perspectivas e requisitos dos clientes internos
                         e externos devem ser conhecidos para que o processo seja projetado de modo a produzir resultados
                         que satisfaçam suas necessidades.</p>
+                    <h3 class="hidden-grande">GERÊNCIA<br />PARTICIPATIVA</h3>
                     <p class="texto-desafios-r gerencia-texto">Conhecer e avaliar a opinião dos seus colaboradores é um aspecto
                         importante para que sejam discutidas as ideias e melhor desempenho do processo seja alcançado.</p>
+                    <h3 class="hidden-grande">DESENVOLVIMENTO<br />HUMANO</h3>
                     <p class="texto-desafios-r desenvolvimento-texto">Para se chegar a melhor eficiência, eficácia e efetividade
                         da organização é necessário o conhecimento, as habilidades, a criatividade, a motivação e a competência
                         das pessoas. De oportunidades de aprendizado e de um ambiente favorável ao pleno desenvolvimento
                         depende o sucesso das pessoas.</p>
+                    <h3 class="hidden-grande">METODOLOGIA<br />PADRONIZADA</h3>
                     <p class="texto-desafios-r metodologia-texto">Para evitar desvios de interpretação e alcançar os resultados
                         esperados, é importante seguir os padrões e a metodologia definida, que poderá ser constantemente
                         melhorada.
@@ -519,28 +523,28 @@
                         <h1 class="title-clientes titulos-mobile"><span class="title-servicos-2">NOSSOS</span> CLIENTES</h1>
                     </div>
                     <div class="row row-clientes">
-                        <div class="col-sm-6 col-md-3 col-lg-3 logo-1">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-1 logo-mobile logo-mobile-2">
                             <img src="./src/img/logo-adidas.png" class="logo-clientes">
                         </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 logo-1">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-1 logo-mobile-2">
                             <img src="./src/img/logo-redbull.png" class="logo-clientes">
                         </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 logo-1">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-1 logo-mobile logo-mobile-2">
                             <img src="./src/img/logo-hugo-boss.png" class="logo-clientes">
                         </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 logo-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-2 logo-mobile-2">
                             <img src="./src/img/logo-cocacola.png" class="logo-clientes">
                         </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 logo-3">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-3 logo-mobile logo-mobile-2">
                             <img src="./src/img/logo-cocacola.png" class="logo-clientes">
                         </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 logo-3">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-3 logo-mobile-2">
                             <img src="./src/img/logo-adobe.png" class="logo-clientes">
                         </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 logo-3">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-3 logo-mobile">
                             <img src="./src/img/logo-redbull.png" class="logo-clientes">
                         </div>
-                        <div class="col-sm-6 col-md-3 col-lg-3">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3">
                             <img src="./src/img/logo-adidas.png" class="logo-clientes">
                         </div>
                     </div>
@@ -560,7 +564,8 @@
 
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-8 offset-sm-1 offset-md-2 offset-lg-2">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.0227152364137!2d-47.95947408568916!3d-15.802756227369345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3053edfe2941%3A0x6b2e50c7d439353e!2sLot+625%2F695+-+SIA+Trecho+3+-+Bras%C3%ADlia%2C+DF%2C+71200-030!5e0!3m2!1spt-BR!2sbr!4v1535724716700" frameborder="0" allowfullscreen class="google-maps "></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.0227152364137!2d-47.95947408568916!3d-15.802756227369345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3053edfe2941%3A0x6b2e50c7d439353e!2sLot+625%2F695+-+SIA+Trecho+3+-+Bras%C3%ADlia%2C+DF%2C+71200-030!5e0!3m2!1spt-BR!2sbr!4v1535724716700"
+                            frameborder="0" allowfullscreen class="google-maps "></iframe>
                     </div>
 
                 </div>

@@ -46,7 +46,7 @@ body {
 
 @media only screen and (max-width: 767px) {
 	.titulos-mobile {
-		font-size: 2.3rem !important;
+		font-size: 1.7rem !important;
 	}
 }
 
@@ -380,6 +380,30 @@ body {
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: 88%;
+}
+
+@media only screen and (max-width: 767px) {
+	.desafios-mobile {
+		padding-left: 7%;
+	}
+	.desafios-mobile h3 {
+		font-family: "MontserratExtraBold";
+		color: #636363;
+		text-align: center;
+		padding-top: 5%;
+		margin-bottom: 5%;
+		font-size: 1.3rem;
+		border-bottom: solid 1px #636363
+	}
+	.desafios-mobile p {
+		font-family: "MontserratRegular";
+		color: #636363;
+		width: inherit;
+		font-size: 0.85rem;
+		padding-top: 0;
+		padding-right: 7%;
+		text-align: justify;
+	}
 }
 
 .satisfacao-centro {
@@ -866,14 +890,31 @@ body {
 	border-right: solid 2px #a4a4a4;
 }
 
+@media only screen and (max-width: 767px) {
+	.logo-mobile {
+		border-right: solid 2px #a4a4a4;
+	}
+	.logo-mobile-2 {
+		border-bottom: solid 2px #a4a4a4;
+	}
+}
+
 .row-clientes {
 	padding-bottom: 7%;
 }
 
 .contatos-rodape {
 	background-image: url("../img/bkg-rodape.png");
-	background-size: 100%;
+	background-size: 110%;
 	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+	.contatos-rodape {
+		background-image: url("../img/bkg-rodape.png");
+		background-size: inherit;
+		background-repeat: no-repeat;
+	}
 }
 
 .titulo-contatos {
@@ -1140,7 +1181,7 @@ body {
 	color: #636363;
 	font-size: 0.8rem;
 	padding-top: 3%;
-	padding-left: 3%;	
+	padding-left: 3%;
 }
 
 .download-01 ul {
@@ -1169,17 +1210,17 @@ body {
 
 .form-topo::before {
 	border: 10px solid transparent;
-    border-top-color: #193772;
-    content: "";
-    bottom: -20px;
-    left: 40px;
-    position: absolute;
+	border-top-color: #193772;
+	content: "";
+	bottom: -20px;
+	left: 40px;
+	position: absolute;
 }
 
 .form-topo h4 {
 	font-family: "MontserratBold";
 	font-size: 0.9rem;
-	color: #fff;	
+	color: #fff;
 }
 
 .form-instr {
@@ -1197,15 +1238,15 @@ body {
 .solicita-download label {
 	font-family: "MontserratRegular";
 	color: #fff;
-	font-size: 0.87rem;	
+	font-size: 0.87rem;
 }
 
 .solicita-download select {
 	padding: 10px;
 	width: 100%;
 	font-family: "MontserratBold";
-    color: #afafaf;
-    font-size: 11px;
+	color: #afafaf;
+	font-size: 11px;
 }
 
 .btn-receber {
@@ -1229,7 +1270,7 @@ body {
 
 .comp-linkedin {
 	width: 13%;
-    margin-left: 2%;
+	margin-left: 2%;
 }
 
 .white-line-download {
